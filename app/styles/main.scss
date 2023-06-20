@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom right, #000017, #060016);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30pt;
+    #terraria {
+        height: 60pt;
+    }
+}
+
+#widget
+{
+    display: block;
+    margin: auto;
+}
+
+.desc {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .text-container {
+        width: 60%;
+        margin: 15px;
+        p {
+            margin: 20px 0;
+            text-align: justify;
+            line-height: 1.5;
+            text-indent: 1.25rem;
+        }
+        li
+        {
+            text-indent: 2rem;
+            list-style-position: inside;
+        }
+    }
+    .img-container {
+        overflow: hidden;
+        margin: 15px;
+        width: 40%;
+        height: 40vw;
+        border-radius: 30px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+#cool-form
+{
+    margin: 20px auto;
+    width: 50vw;
+    text-align: center;
+    input
+    {
+        color: black;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 50px;
+        &.button
+        {
+            width: 180px;
+            color: white;
+            background-color: #000017;
+            padding: 10px;
+            margin: 5px;
+        }
+    }
+}

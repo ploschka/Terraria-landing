@@ -13,6 +13,7 @@ Encore
     .addAliases({
         Styles: path.join(__dirname, './app/styles'),
         Components: path.join(__dirname, './app/components'),
+        Images: path.join(__dirname, './app/images'),
     })
 
     .enableReactPreset()
