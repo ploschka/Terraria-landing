@@ -5,15 +5,13 @@ const CoolForm = require("Components/CoolForm.jsx");
 import "Styles/main.scss";
 
 const imglist = [
-    require("Images/1.png"),
-    require("Images/2.png"),
-    require("Images/3.png"),
-    require("Images/4.png"),
-    require("Images/5.png"),
-    require("Images/6.png"),
-    require("Images/7.png"),
-].map(e => e.slice(0));
-const terrariaImg = require("Images/terraria.png").slice(0);
+    require("Images/1.jpeg"),
+    require("Images/2.jpeg"),
+    require("Images/3.jpeg"),
+    require("Images/4.jpeg"),
+    require("Images/5.jpeg"),
+];
+const terrariaImg = require("Images/terraria.png");
 
 ReactDOM.createRoot(document.getElementById("app"))
     .render(
